@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", sans-serif;
+}
+
+::selection {
+	background-color: #6b130d;
+	color: white;
+}
+
+/*ResetPassword Start Here*/
+.Reset-main-erea {
+	background-color: #6b130d;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+
+.Reset-arrow-icon {
+	display: flex;
+	align-items: center;
+}
+
+.Reset-arrow-icon a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Reset-arrow-icon .reset-text {
+	margin-left: 1rem;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.Reset-user-icon {
+	display: flex;
+	align-items: center;
+}
+
+.Reset-user-icon a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*ResetPassword End Here*/
+
+/*Form Start Here*/
+.form_parent {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px 5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	padding: 25px;
+
+}
+
+.form2 {
+	margin-top: 60px;
+}
+
+.form input {
+	padding: 15px;
+	width: 100%;
+}
+
+.form .text {
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid rgba(195, 187, 191, 0.4);
+	padding: 5px;
+}
+
+.alert {
+	background-color: rgb(253, 236, 234);
+	width: 100%;
+}
+
+.alert i {
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.alert p {
+	display: inline;
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.note {
+	background-color: rgb(232, 244, 253);
+	padding: 15px;
+	text-align: justify;
+	width: 100%;
+}
+
+.note i {
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.note p {
+	display: inline;
+	margin-left: 9px;
+	font-size: 15px;
+}
+
+.note ul {
+	margin-left: 40px;
+}
+
+.note ul li {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.form button {
+	width: 100%;
+	background-color: #3F51D0;
+	margin-top: 40px;
+}
+
+/*Form end Here*/
+
+/*Footer Start Here*/
+.footer {
+	background-color: #f0f0f0;
+	padding: 30px;
+	position: relative;
+	margin-top: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer .footer_child {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+.footer p {
+	padding-top: 10px;
+	opacity: 0.5;
+
+}
+
+/*Footer End Here*/

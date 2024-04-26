@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", sans-serif;
+}
+
+::selection {
+	background-color: #6b130d;
+	color: white;
+}
+
+/*ResetPassword Start Here*/
+.Annouce-main-erea {
+	background-color: #6b130d;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	position: relative;
+	top: 0;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.Annouce-arrow-icon {
+	display: flex;
+	align-items: center;
+}
+
+.Annouce-arrow-icon a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.Annouce-arrow-icon .Annouce-text {
+	margin-left: 1rem;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+/*Annoucements navbar end here*/
+
+/*Annoucements card start here*/
+.card1 {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: 100%;
+}
+
+.download-part {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	align-items: center;
+}
+
+.download-part li {
+	border: none;
+}
+
+.download-part li i {
+	margin-right: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*Annoucements card start here*/
+
+/*footer start here*/
+.footer {
+	background-color: #f0f0f0;
+	padding: 30px;
+	position: relative;
+	margin-top: 190px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.footer .footer_child {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+.footer p {
+	padding-top: 10px;
+	opacity: 0.5;
+
+
+}
+
+/*footer End here*/

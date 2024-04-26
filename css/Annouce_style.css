@@ -1,0 +1,207 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", sans-serif;
+}
+
+::selection {
+	background-color: #6b130d;
+	color: white;
+}
+
+/*ResetPassword Start Here*/
+.Annouce-main-erea {
+	background-color: #6b130d;
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+	width: 100%;
+	position: fixed;
+	position: relative;
+	top: 0;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.Annouce-arrow-icon {
+	display: flex;
+	align-items: center;
+}
+
+.Annouce-arrow-icon p {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.Annouce-arrow-icon .Annouce-text {
+	margin-left: 1rem;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.Annouce-user-icon {
+	display: flex;
+	align-items: center;
+}
+
+.Annouce-user-icon a i {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.log-out-card {
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	margin-right: 5px;
+	position: absolute;
+	top: 15px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: none;
+
+}
+
+.log-out-card ul {
+	list-style-type: none;
+	padding: 5px;
+
+}
+
+.log-out-card ul a {
+	text-decoration: none;
+	color: black;
+}
+
+.log-out-card ul li {
+	padding: 5px;
+}
+
+.log-out-card ul li:hover {
+	background-color: rgba(229, 221, 225, 0.32);
+	border-radius: 5px;
+}
+
+.sideparent {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	position: fixed;
+	display: none;
+}
+
+.side_navbar {
+	position: absolute;
+	top: 0px;
+	background-color: white;
+	height: 100vh;
+	z-index: 1;
+	position: fixed;
+	left: 0px;
+
+
+}
+
+.side_navbar_img {
+	display: flex;
+	justify-content: center;
+
+}
+
+.side_navbar_img img {
+	width: 80px;
+	margin-top: 20px;
+}
+
+.sideparent p {
+	border-bottom: 2px solid rgba(182, 176, 180, 0.29);
+}
+
+.side_navbar_list1 a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 17px;
+}
+/*Annoucements navbar end here*/
+
+
+/*Annoucements card start here*/
+.annoce_parent {
+	margin-top: 50px;
+}
+
+.annoce_parent .annouce_text {
+	opacity: 0.5;
+	margin-left: 25px;
+	font-weight: bold;
+
+}
+
+.annoce_parent p {
+	border-bottom: 2px solid rgba(182, 176, 180, 0.29);
+	margin-left: 10px;
+	width: 95%;
+}
+
+.card1 {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: 100%;
+	position: relative;
+}
+
+.download-part {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	align-items: center;
+}
+
+.download-part li {
+	border: none;
+}
+
+.download-part li i {
+	margin-right: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #f0f0f0;
+	padding: 30px;
+	position: relative;
+	margin-top: 110px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.footer .footer_child {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+.footer p {
+	padding-top: 10px;
+	opacity: 0.5;
+
+}
