@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel / Slider using Owl Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        body {
+            background-color: wheat;
+        }
+
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 17%;
+            float: left;
+            border: 5px solid #fff;
+            border-radius: 20px;
+            margin-left: 54px;
+            margin-right: 35px;
+            margin-top: 15px;
+        }
+
+        .slider-item.equal-height.style-6 {
+            background-color: #eee;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .cell-right {
+            text-align: center;
+            margin-right: 80px;
+            padding-top: 35px;
+            padding-bottom: 20px;
+        }
+
+        .header {
+            font-weight: 600;
+        }
+
+        .details.quote {
+            padding: 17px 55px;
+        }
+
+        .et_right_sidebar #main-content .container:before {
+            display: none;
+        }
+
+        #main-content .container {
+            padding-top: 10px;
+        }
+
+        i.fa.fa-quote-left {
+            padding: 0px 10px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="main-slider" class="owl-carousel">
+        <div class="slider-item equal-height style-6" style="height: 254px;">
+            <div class="slider-image cell-left">
+                <img src="https://images.unsplash.com/photo-1707397902790-4eb7e40b714d" alt="Elephant">
+            </div>
+            <div class="cell-right">
+                <div class="header">Wild</div>
+                <div class="desc">Elephant</div>
+            </div>
+            <div class="details quote"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar placerat pulvinar. Mauris consequat dui ut quam sollicitudin, vitae fermentum orci mattis. Morbi id justo ultricies, mollis leo sed, aliquet mi</div>
+        </div>
+        <div class="slider-item equal-height style-6" style="height: 254px;">
+            <div class="slider-image cell-left">
+                <img src="https://images.unsplash.com/photo-1708245248056-b71d774931a2" alt="Monkey">
+            </div>
+            <div class="cell-right">
+                <div class="header">Wild</div>
+                <div class="desc">Monkey</div>
+            </div>
+            <div class="details quote"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar placerat pulvinar. Mauris consequat dui ut quam sollicitudin, vitae fermentum orci mattis. Morbi id justo ultricies, mollis leo sed, aliquet mi</div>
+        </div>
+        <div class="slider-item equal-height style-6" style="height: 254px;">
+            <div class="slider-image cell-left">
+                <img src="https://images.unsplash.com/photo-1711216798087-df556b37f358" alt="Butterflies">
+            </div>
+            <div class="cell-right">
+                <div class="header">Insect</div>
+                <div class="desc">Butterflies</div>
+            </div>
+            <div class="details quote"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar placerat pulvinar. Mauris consequat dui ut quam sollicitudin, vitae fermentum orci mattis. Morbi id justo ultricies, mollis leo sed, aliquet mi</div>
+        </div>
+        <div class="slider-item equal-height style-6" style="height: 254px;">
+            <div class="slider-image cell-left">
+                <img src="https://images.unsplash.com/photo-1710125246865-851d06ad7dbc" alt="Deer">
+            </div>
+            <div class="cell-right">
+                <div class="header">Wild</div>
+                <div class="desc">Deer</div>
+            </div>
+            <div class="details quote"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar placerat pulvinar. Mauris consequat dui ut quam sollicitudin, vitae fermentum orci mattis. Morbi id justo ultricies, mollis leo sed, aliquet mi</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#main-slider").owlCarousel({
+            items: 
+
+1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // Change this value to adjust autoplay interval
+            autoplayHoverPause: true,
+            dots: true
+        });
+    });
+</script>
+</body>
+</html>
